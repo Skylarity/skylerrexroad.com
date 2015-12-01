@@ -1,2 +1,2 @@
-# skylerrexroad.com
-Skyler Rexroad's Personal Portfolio
+# Skylarity
+Personal Website Project

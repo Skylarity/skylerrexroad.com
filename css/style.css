@@ -1,0 +1,269 @@
+html, body {
+	color: #508CFF !important;
+	font-family: 'Roboto', sans-serif;
+}
+
+/** {
+	color: #508CFF;
+	font-family: 'Roboto', sans-serif;
+}*/
+
+.spacing {
+	margin-top: 20px;
+}
+
+a,
+a:hover,
+a:focus {
+	color: #508CFF;
+}
+
+.thumbnail:hover {
+	border-color: #508CFF;
+}
+
+/******************************
+ * Header
+ ******************************/
+
+.header {
+	padding: 10px 0;
+}
+
+.logo {
+	margin: 0;
+	padding: 12px 0 0 0;
+
+	font-weight: 300;
+	font-size: 1.10em;
+}
+
+@media only screen and (min-width: 968px) {
+	.logo {
+		padding: 3px 0 0 0;
+		font-size: 30px;
+	}
+}
+
+.logo-robot {
+	width: 40px;
+	height: auto;
+
+	display: inline-block;
+}
+
+.header-nav > li > a {
+	color: #508CFF;
+}
+
+.header-nav > li > a:hover,
+.header-nav > li > a:active,
+.navbar > .nav > li > .active > a {
+	color: #FFFFFF;
+	background-color: #508CFF;
+}
+
+/******************************
+ * Call to Action
+ ******************************/
+
+.call-to-action-bg {
+	background-color: #508CFF;
+}
+
+.call-to-action {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.call-to-action > h1 {
+	color: #FFFFFF;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+}
+
+.call-to-action > h1 > small {
+	color: #FFFFFF;
+	font-family: 'Comfortaa', cursive;
+}
+
+@media only screen and (min-width: 968px) {
+	.call-to-action > h1 {
+		font-size: 6em;
+	}
+}
+
+/******************************
+ * Content
+ ******************************/
+
+.content {
+	padding: 20px 0;
+	font-size: 1.1em;
+}
+
+.content-h2 {
+	font-weight: 300;
+}
+
+.content-img {
+	width: auto;
+	height: 150px;
+}
+
+/******************************
+ * Music
+ ******************************/
+
+.music {
+
+}
+
+.music-h1-bg {
+	padding: 50px 0;
+	background-color: #508CFF;
+}
+
+.music-h1 {
+	color: #FFFFFF;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+
+@media only screen and (min-width: 968px) {
+	.music-h1 {
+		font-size: 6em;
+	}
+}
+
+/******************************
+ * Websites
+ ******************************/
+
+.websites {
+
+}
+
+.websites-bg {
+	padding: 50px 0;
+	background-color: #508CFF;
+}
+
+.websites-h1 {
+	color: #FFFFFF;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+
+.websites-h1 > small {
+	color: #FFFFFF;
+	font-family: 'Comfortaa', cursive;
+}
+
+@media only screen and (min-width: 968px) {
+	.websites-h1 {
+		font-size: 4em;
+	}
+}
+
+.websites-img {
+	height: 500px;
+}
+
+/******************************
+ * Contact
+ ******************************/
+
+.contact {
+	display: inline-block;
+}
+
+.social-media {
+	margin: 0 5px;
+	padding: 5px;
+	font-size: 1.75em;
+	border-radius: 4px;
+
+	text-decoration: none;
+}
+
+a.social-media:hover,
+a.social-media:focus {
+	color: #FFFFFF;
+	background-color: #508CFF;
+
+	text-decoration: none;
+}
+
+.contact-button {
+	color: #508CFF;
+	background-color: #FFFFFF;
+	border: solid 1px #508CFF;
+}
+
+.contact-button:hover {
+	color: #FFFFFF;
+	background-color: #508CFF;
+	border: solid 1px #508CFF;
+}
+
+.form-control {
+	border: solid 1px #508CFF;
+	box-shadow: none;
+	color: #508CFF;
+	background-color: #FFFFFF;
+
+	transition: color 0.42s, background-color 0.42s;
+}
+
+.form-control:focus,
+.form-control:active {
+	box-shadow: none;
+	color: #FFFFFF;
+	background-color: #508CFF;
+	border: solid 1px #508CFF;
+}
+
+/******************************
+ * Swipebox
+ ******************************/
+
+.box {
+	width: 100%;
+	height: auto;
+}
+
+/******************************
+ * Footer
+ ******************************/
+
+footer {
+	padding: 10px 0;
+	font-weight: 300;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
