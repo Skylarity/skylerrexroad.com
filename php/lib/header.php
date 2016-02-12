@@ -18,7 +18,7 @@
 						<a href="<?php echo $PREFIX; ?>websites">Websites</a>
 					</li>
 					<li role="presentation">
-						<a href="<?php echo $PREFIX; ?>contact">Contact</a>
+						<a href="mailto:skyrex1095@gmail.com">Contact</a>
 					</li>
 				</nav>
 			</div>
