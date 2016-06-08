@@ -15,9 +15,9 @@
 			</div>
 
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-				<li><a href="#"><i class="fa fa-folder-open"></i>&nbsp;Portfolio</a></li>
-				<li><a href="#"><i class="fa fa-envelope"></i>&nbsp;Contact Me</a></li>
+				<li class="active"><a href="#landing"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+				<li><a href="#portfolio"><i class="fa fa-folder-open"></i>&nbsp;Portfolio</a></li>
+				<li><a href="#contact"><i class="fa fa-envelope"></i>&nbsp;Contact Me</a></li>
 			</ul>
 		</div>
 	</nav>

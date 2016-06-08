@@ -5,7 +5,7 @@
 	background: none;
 	border: none;
 	border-bottom: 1px solid #fff;
-	transition: all 0.5s;
+	transition: all 0.3s;
 }
 
 .navbar-default .navbar-brand {
@@ -13,19 +13,22 @@
 	font-size: 4rem;
 }
 
-.navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-nav > li > a:visited {
+.navbar-default .navbar-nav > li > a {
 	font-size: 2rem;
 	color: #fff;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 	text-align: center;
+	margin-left: 5px;
 	transition: all 0.2s;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:active {
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
 	background-color: #fff;
 	color: #508cff;
 }
@@ -61,8 +64,35 @@ header {
 	width: auto;
 }
 
+.landing,
+.portfolio,
+.contact {
+	min-height: 100vh;
+}
+
+.landing h1,
+.landing h2,
+.landing h3,
+.landing h4,
+.landing h5,
+.landing h6,
+.portfolio h1,
+.portfolio h2,
+.portfolio h3,
+.portfolio h4,
+.portfolio h5,
+.portfolio h6,
+.contact h1,
+.contact h2,
+.contact h3,
+.contact h4,
+.contact h5,
+.contact h6 {
+	padding-top: 100px;
+}
+
 .landing {
-	background: linear-gradient(270deg, #508cff, #89b4ff);
+	background: linear-gradient(270deg, #508cff, #64A0FF);
 	background-size: 400% 400%;
 
 	-webkit-animation: home-bg 24s ease infinite;
@@ -70,7 +100,12 @@ header {
 	animation: home-bg 24s ease infinite;
 }
 
-.landing h1 {
+.landing h1,
+.landing h2,
+.landing h3,
+.landing h4,
+.landing h5,
+.landing h6 {
 	color: #fff;
 }
 
@@ -79,6 +114,8 @@ header {
 	color: #fff;
 	font-family: 'Quattrocento', serif;
 }
+
+/** Animations **/
 
 @-webkit-keyframes home-bg {
 	0% {
