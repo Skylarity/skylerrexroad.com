@@ -8,10 +8,11 @@
 					<span class="sr-only">Toggle navigation</span>
 					<i class="fa fa-bars"></i>
 				</button>
-				<a class="navbar-brand nav-logo" href="#"><img src="<?php echo $PREFIX; ?>lib/images/robot-white.png"
-															   class="robo-logo img-responsive pull-left"
-															   alt="Robot Logo"></a>
-				<a href="#" class="navbar-brand text-uppercase">Skyler Rexroad</a>
+				<a class="navbar-brand nav-logo" href="#landing"><img
+						src="<?php echo $PREFIX; ?>lib/images/robot-white.png"
+						class="robo-logo img-responsive pull-left"
+						alt="Robot Logo"></a>
+				<a href="#landing" class="navbar-brand text-uppercase">Skyler Rexroad</a>
 			</div>
 
 			<ul class="nav navbar-nav navbar-right">

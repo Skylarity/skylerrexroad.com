@@ -10,7 +10,15 @@
 
 .navbar-default .navbar-brand {
 	color: #fff;
-	font-size: 4rem;
+	font-size: 8rem;
+	line-height: 0;
+	transition: all 0.3s;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:focus {
+	color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -62,6 +70,7 @@ header {
 .robo-logo {
 	height: 50px;
 	width: auto;
+	transition: all 0.2s;
 }
 
 .landing,
@@ -92,12 +101,7 @@ header {
 }
 
 .landing {
-	background: linear-gradient(270deg, #508cff, #64A0FF);
-	background-size: 400% 400%;
-
-	-webkit-animation: home-bg 24s ease infinite;
-	-moz-animation: home-bg 24s ease infinite;
-	animation: home-bg 24s ease infinite;
+	background: #508cff;
 }
 
 .landing h1,
@@ -109,46 +113,76 @@ header {
 	color: #fff;
 }
 
-.landing p {
-	font-size: 1.6rem;
-	color: #fff;
+p,
+div {
 	font-family: 'Quattrocento', serif;
 }
 
-/** Animations **/
-
-@-webkit-keyframes home-bg {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+.skew {
+	padding: 60px 0;
+	font-size: 5rem;
+	transform: skewY(-6deg);
 }
 
-@-moz-keyframes home-bg {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+.skew > * {
+	transform: skewY(6deg) rotate(-6deg);
 }
 
-@keyframes home-bg {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+.skew a {
+	color: #fff;
+}
+
+.skew a:hover,
+.skew a:active,
+.skew a:focus {
+	text-decoration: underline;
+}
+
+.email {
+	color: #fff;
+	background-color: #508cff;
+}
+
+.email a {
+	color: #fff;
+}
+
+.email a:hover,
+.email a:active,
+.email a:focus {
+	color: #fff;
+}
+
+.twitter {
+	color: #508cff;
+	background: none;
+}
+
+.twitter a {
+	color: #508cff;
+}
+
+.twitter a:hover,
+.twitter a:active,
+.twitter a:focus {
+	color: #508cff;
+}
+
+.github {
+	color: #fff;
+	background: #508cff;
+}
+
+.github a {
+	color: #fff;
+}
+
+.github a:hover,
+.github a:active,
+.github a:focus {
+	color: #fff;
+}
+
+.spacer {
+	padding-top: 100px;
 }
