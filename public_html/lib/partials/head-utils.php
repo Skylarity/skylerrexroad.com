@@ -21,6 +21,10 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 			  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
 			  crossorigin="anonymous">
 
+		<!-- Google Fonts -->
+		<link href='//fonts.googleapis.com/css?family=Titillium+Web:200|Quattrocento:400,700' rel='stylesheet'
+			  type='text/css'>
+
 		<!-- Custom CSS Goes HERE -->
 		<link rel="stylesheet" href="<?php echo $PREFIX; ?>lib/css/style.css">
 
@@ -32,15 +36,18 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<![endif]-->
 
 		<!-- jQuery - required for Bootstrap Components -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 		<!-- Bootstrap JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
 				crossorigin="anonymous"></script>
 
 		<!-- Font Awesome -->
-		<script src="https://use.fontawesome.com/c6d498a31d.js"></script>
+		<script src="//use.fontawesome.com/c6d498a31d.js"></script>
+
+		<!-- Custom JS -->
+		<script src="<?php echo $PREFIX; ?>lib/js/navbar.js"></script>
 
 		<title><?php echo $PAGE_TITLE; ?></title>
 	</head>

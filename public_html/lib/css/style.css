@@ -1,3 +1,57 @@
+/** BOOTSTRAP OVERRIDES **/
+
+.navbar-default {
+	padding-top: 50px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	transition: all 0.5s;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: 4rem;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:visited {
+	font-size: 2rem;
+	color: #fff;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active {
+	background-color: #fff;
+	color: #508cff;
+}
+
+.navbar-default .navbar-nav > li > a > .fa {
+	font-size: 2.25rem;
+}
+
+/** Custom CSS **/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 200;
+}
+
+header {
+	padding-bottom: 100px;
+}
+
 .nav-logo {
 	padding-top: 0;
 }
@@ -5,4 +59,59 @@
 .robo-logo {
 	height: 50px;
 	width: auto;
+}
+
+.landing {
+	background: linear-gradient(270deg, #508cff, #89b4ff);
+	background-size: 400% 400%;
+
+	-webkit-animation: home-bg 24s ease infinite;
+	-moz-animation: home-bg 24s ease infinite;
+	animation: home-bg 24s ease infinite;
+}
+
+.landing h1 {
+	color: #fff;
+}
+
+.landing p {
+	font-size: 1.6rem;
+	color: #fff;
+	font-family: 'Quattrocento', serif;
+}
+
+@-webkit-keyframes home-bg {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes home-bg {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes home-bg {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
