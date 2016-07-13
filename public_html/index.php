@@ -21,7 +21,7 @@ $PAGE_TITLE = "Skyler Rexroad";
 							TruFork
 						</h3>
 						<p>
-							description
+							Lorem ipsum dolor sit amet, qui utinam sententiae et, te feugiat ponderum consulatu quo, est persius ornatus no. Vidit euismod dissentiunt sed id, tation omittam copiosae vim cu. At eius efficiantur est, amet congue theophrastus ius in. Ei vix fuisset voluptua honestatis, feugiat insolens ut vel. In quodsi suavitate mea, nec id suavitate incorrupte contentiones, an qui menandri intellegam. No quot nulla omnesque quo, ad sit quod inani habemus. Eam an adhuc lucilius.
 						</p>
 						<p>
 							<a href="//trufork.com" target="_blank" class="btn btn-primary" role="button"><i
