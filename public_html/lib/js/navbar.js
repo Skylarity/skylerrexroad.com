@@ -5,7 +5,7 @@ $(window).on('scroll', function() {
 
 	// if the scroll position is greater than 100px
 	if($(window).scrollTop() > 1) {
-		$('.navbar').css({paddingTop: "0", backgroundColor: "#508cff", borderBottom: "2px solid #fff"});
+		$('.navbar').css({paddingTop: "0", backgroundColor: "#508cff", borderBottom: "1px solid #fff"});
 		$('.navbar-default .navbar-nav > li > a').css({borderTopLeftRadius: "0", borderTopRightRadius: "0"});
 		$('.navbar-default .navbar-brand').css({fontSize: "4rem", lineHeight: "20px"});
 		// $('.robo-logo').css({height: "50px"});
