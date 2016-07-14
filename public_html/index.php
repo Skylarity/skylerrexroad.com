@@ -12,42 +12,47 @@ $PAGE_TITLE = "Skyler Rexroad";
 <div id="portfolio" class="portfolio">
 	<div class="container">
 		<h2 class="main-h blue-text">Previous Work</h2>
-		<div class="row">
+		<div class="row row-flex">
 			<div class="col-md-6">
 				<div class="thumbnail">
-					<img src="lib/images/thumbs/trufork.png" alt="">
+					<img class="img-responsive" src="lib/images/thumbs/trufork.png" alt="">
 					<div class="caption">
 						<h3>
 							TruFork
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, qui utinam sententiae et, te feugiat ponderum consulatu quo, est persius ornatus no. Vidit euismod dissentiunt sed id, tation omittam copiosae vim cu. At eius efficiantur est, amet congue theophrastus ius in. Ei vix fuisset voluptua honestatis, feugiat insolens ut vel. In quodsi suavitate mea, nec id suavitate incorrupte contentiones, an qui menandri intellegam. No quot nulla omnesque quo, ad sit quod inani habemus. Eam an adhuc lucilius.
+							A play on Urbanspoon, TruFork looks at the city of Albuquerque's restaurant violation data
+							in order to determine what restaurants you may (or may not) want to eat at.
 						</p>
 						<p>
-							<a href="//trufork.com" target="_blank" class="btn btn-primary" role="button"><i
-									class="fa fa-lg fa-external-link"></i></a>
-							<a href="//github.com/Skylarity/trufork" target="_blank" class="btn btn-default pull-right"
-							   role="button"><i class="fa fa-lg fa-github"></i></a>
+							I designed and implemented the entire user experience and interface as well as created the d&aelig;mon
+							that scans and stores the city's open restaurant data.
 						</p>
+					</div>
+					<div class="caption-padding">
+						<a href="//trufork.com" target="_blank" class="btn btn-primary" role="button"><i
+								class="fa fa-lg fa-external-link"></i></a>
+						<a href="//github.com/Skylarity/trufork" target="_blank" class="btn btn-default pull-right"
+						   role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="thumbnail">
-					<img src="//placehold.it/1600x888" alt="">
+					<img class="img-responsive" src="lib/images/thumbs/game-idea-generator.png" alt="">
 					<div class="caption">
 						<h3>
-							title
+							Game Idea Generator
 						</h3>
 						<p>
 							description
 						</p>
-						<p>
-							<a href="#" target="_blank" class="btn btn-primary" role="button"><i
-									class="fa fa-lg fa-external-link"></i></a>
-							<a href="//github.com/Skylarity" target="_blank" class="btn btn-default pull-right"
-							   role="button"><i class="fa fa-lg fa-github"></i></a>
-						</p>
+					</div>
+					<div class="caption-padding">
+						<a href="//skylerrexroad.com/~skyler/game-idea-generator/" target="_blank" class="btn btn-primary" role="button"><i
+								class="fa fa-lg fa-external-link"></i></a>
+						<a href="//github.com/Skylarity" target="_blank" class="btn btn-default pull-right"
+						   role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
 				</div>
 			</div>
@@ -58,28 +63,28 @@ $PAGE_TITLE = "Skyler Rexroad";
 	<div class="container">
 		<h2 class="main-h sr-only"><span>Contact me</span></h2>
 	</div>
-	<a href="mailto:skyler@skylerrexroad.com">
+	<a href="mailto:skyler.rexroad@gmail.com">
 		<div class="ribbon ribbon-right email">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
 						<div class="titillium">
-							<i class="fa fa-envelope"></i>
-							skyler@skylerrexroad.com
+							<i class="fa fa-lg fa-envelope"></i>
+							skyler.rexroad@gmail.com
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</a>
-	<a href="//twitter.com/Skylarity" target="_blank">
-		<div class="ribbon ribbon-left twitter">
+	<a href="//github.com/Skylarity" target="_blank">
+		<div class="ribbon ribbon-left github">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-4">
 						<div class="pull-right">
 							<div class="titillium">
-								<i class="fa fa-twitter"></i>
+								<i class="fa fa-lg fa-github"></i>
 								@Skylarity
 							</div>
 						</div>
@@ -88,13 +93,13 @@ $PAGE_TITLE = "Skyler Rexroad";
 			</div>
 		</div>
 	</a>
-	<a href="//github.com/Skylarity" target="_blank">
-		<div class="ribbon ribbon-right github">
+	<a href="//twitter.com/Skylarity" target="_blank">
+		<div class="ribbon ribbon-right twitter">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
 						<div class="titillium">
-							<i class="fa fa-github"></i>
+							<i class="fa fa-lg fa-twitter"></i>
 							@Skylarity
 						</div>
 					</div>

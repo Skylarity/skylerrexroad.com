@@ -1,4 +1,12 @@
-/** BOOTSTRAP OVERRIDES **/
+.thumbnail {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
+	padding: 0;
+}
+
+.thumbnail-img {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
 
 .btn-primary {
 	color: #fff;
@@ -12,6 +20,10 @@
 	color: #fff;
 	background-color: #487ee5;
 	border-color: #487ee5;
+}
+
+.img-rounded {
+	border-radius: 4px;
 }
 
 .navbar-default {
@@ -38,8 +50,8 @@
 .navbar-default .navbar-nav > li > a {
 	font-size: 2rem;
 	color: #fff;
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 	text-align: center;
 	margin-left: 5px;
 	transition: all 0.2s;
@@ -119,6 +131,14 @@ div {
 	font-family: 'Quattrocento', serif;
 }
 
+.caption p:last-of-type {
+	margin: 0;
+}
+
+.caption-padding {
+	padding: 0 9px 9px;
+}
+
 .skew {
 	padding: 60px 0;
 	font-size: 5rem;
@@ -149,7 +169,7 @@ div {
 }
 
 .ribbon:hover {
-	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.14);
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.14);
 }
 
 .ribbon-right {
@@ -185,6 +205,10 @@ div {
 	color: #fff;
 }
 
+.email:hover {
+	background-color: #dd4b39;
+}
+
 .email a:hover,
 .email a:active,
 .email a:focus {
@@ -194,6 +218,10 @@ div {
 .twitter {
 	color: #fff;
 	background: #508cff;
+}
+
+.twitter:hover {
+	background-color: #55acee;
 }
 
 .twitter a {
@@ -209,6 +237,10 @@ div {
 .github {
 	color: #fff;
 	background: #508cff;
+}
+
+.github:hover {
+	background-color: #333;
 }
 
 .github a {
@@ -296,5 +328,58 @@ div {
 	}
 	100% {
 		background-position: 0% 50%
+	}
+}
+
+/********************************************
+* Flexbox Column Height Control
+* Equal height content boxes using Flexbox CSS
+*
+* Author: rlewis37
+********************************************/
+
+/*
+* add the class "row-flex" to each row that
+* houses columns that need to be equal height
+*
+* this example is set to work on the MD breakpoint
+* adjust @media query min-width if necessary
+*/
+
+.row-flex > div[class*="col-"] {
+	margin-bottom: 5px;
+}
+
+/* use the min-width of the appropriate breakpoint (this is set on md and lg)*/
+@media only screen and (min-width: 992px) {
+	.row-flex {
+		display: flex;
+		flex: 1 1 auto;
+		-webkit-flex-flow: row wrap;
+		align-content: flex-start;
+	}
+
+	.row-flex > div[class*="col-"] {
+		display: flex;
+		flex: 1 1 auto;
+		margin: -.2px;
+	}
+}
+
+/** Push .thumbnail buttons to the bottom **/
+
+.thumbnail {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.thumbnail .caption {
+	flex: 1 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+	.caption-padding a {
+		/*width: 40%;*/
 	}
 }
