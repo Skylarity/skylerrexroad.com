@@ -8,6 +8,14 @@
 	border-top-right-radius: 4px;
 }
 
+.jumbotron {
+	background: none;
+}
+
+.jumbotron * {
+	color: #fff;
+}
+
 .btn-primary {
 	color: #fff;
 	background-color: #508cff;

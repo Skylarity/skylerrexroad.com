@@ -5,8 +5,16 @@ $PAGE_TITLE = "Skyler Rexroad";
 <?php require_once("lib/partials/head-utils.php"); ?>
 <div id="landing" class="landing">
 	<?php require_once("lib/partials/header.php"); ?>
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="main-h text-center">Developer, Designer, Musician</h1>
+			<p class="text-center">Go on, take a scroll.</p>
+		</div>
+	</div>
 	<div class="container">
-		<h2 class="main-h">Landing</h2>
+		<div class="text-center">
+			<a href="#portfolio"><i class="white-text fa fa-5x fa-arrow-circle-o-down"></i></a>
+		</div>
 	</div>
 </div>
 <div id="portfolio" class="portfolio">
@@ -25,7 +33,8 @@ $PAGE_TITLE = "Skyler Rexroad";
 							in order to determine what restaurants you may (or may not) want to eat at.
 						</p>
 						<p>
-							I designed and implemented almost the entire user experience and interface as well as created the d&aelig;mon
+							I designed and implemented almost the entire user experience and interface as well as
+							created the d&aelig;mon
 							that scans and stores the city's open restaurant data.
 						</p>
 					</div>
@@ -45,13 +54,15 @@ $PAGE_TITLE = "Skyler Rexroad";
 							Game Idea Generator
 						</h3>
 						<p>
-							description
+							Generates a main character, setting, game genre, and tone for a video game.
 						</p>
 					</div>
 					<div class="caption-padding">
-						<a href="//skylerrexroad.com/~skyler/game-idea-generator/" target="_blank" class="btn btn-primary" role="button"><i
+						<a href="//skylerrexroad.com/~skyler/game-idea-generator/" target="_blank"
+						   class="btn btn-primary" role="button"><i
 								class="fa fa-lg fa-external-link"></i></a>
-						<a href="//github.com/Skylarity/game-idea-generator" target="_blank" class="btn btn-default pull-right"
+						<a href="//github.com/Skylarity/game-idea-generator" target="_blank"
+						   class="btn btn-default pull-right"
 						   role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
 				</div>
