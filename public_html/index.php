@@ -51,7 +51,7 @@ $PAGE_TITLE = "Skyler Rexroad";
 					<div class="caption-padding">
 						<a href="//skylerrexroad.com/~skyler/game-idea-generator/" target="_blank" class="btn btn-primary" role="button"><i
 								class="fa fa-lg fa-external-link"></i></a>
-						<a href="//github.com/Skylarity" target="_blank" class="btn btn-default pull-right"
+						<a href="//github.com/Skylarity/game-idea-generator" target="_blank" class="btn btn-default pull-right"
 						   role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
 				</div>
