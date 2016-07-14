@@ -25,7 +25,7 @@ $PAGE_TITLE = "Skyler Rexroad";
 							in order to determine what restaurants you may (or may not) want to eat at.
 						</p>
 						<p>
-							I designed and implemented the entire user experience and interface as well as created the d&aelig;mon
+							I designed and implemented almost the entire user experience and interface as well as created the d&aelig;mon
 							that scans and stores the city's open restaurant data.
 						</p>
 					</div>
