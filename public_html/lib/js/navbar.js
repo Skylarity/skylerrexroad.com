@@ -3,7 +3,7 @@
  ********************************************/
 $(window).on('scroll', function() {
 
-	// if the scroll position is greater than 100px
+	// if the scroll position is greater than 1px
 	if($(window).scrollTop() > 1) {
 		$('.navbar').css({paddingTop: "0", backgroundColor: "#508cff", borderBottom: "1px solid #fff"});
 		$('.navbar-default .navbar-nav > li > a').css({borderTopLeftRadius: "0", borderTopRightRadius: "0"});
