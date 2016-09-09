@@ -5,7 +5,6 @@ class Skyler {
 	public $lastName = "Rexroad";
 
 	public $basics = [
-		"name" => "Skyler Rexroad",
 		"label" => "Web Developer",
 		"email" => "skyler.rexroad@gmail.com",
 		"phone" => "(505) 379-1072",
