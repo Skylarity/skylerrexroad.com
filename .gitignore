@@ -1,3 +1,4 @@
 .DS_Store
 /vendor
 /.sync-config.cson
+/node_modules
